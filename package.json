@@ -1,0 +1,30 @@
+{
+  "name": "node-typescript-template",
+  "version": "1.0.0",
+  "description": "Project template for node with a typescript compiler",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sernadesigns/node-typescript-template.git"
+  },
+  "keywords": [
+    "node",
+    "typescript"
+  ],
+  "author": "Michael Serna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sernadesigns/node-typescript-template/issues"
+  },
+  "homepage": "https://github.com/sernadesigns/node-typescript-template#readme",
+  "devDependencies": {
+    "concurrently": "^6.2.0",
+    "nodemon": "^2.0.7",
+    "typescript": "^4.3.2"
+  }
+}
