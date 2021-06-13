@@ -24,7 +24,6 @@
   "homepage": "https://github.com/sernadesigns/node-typescript-template#readme",
   "devDependencies": {
     "concurrently": "^6.2.0",
-    "nodemon": "^2.0.7",
-    "typescript": "^4.3.2"
+    "nodemon": "^2.0.7"
   }
 }
